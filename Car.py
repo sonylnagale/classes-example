@@ -12,3 +12,6 @@ class Car(Vehicle):
     def honk(self):
         """Specific implementation for a car."""
         return "Honk honk!"
+
+    def insurance(self): #edited the Car child class file
+        return "This car has good insurance!"
