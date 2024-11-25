@@ -16,4 +16,4 @@ class Vehicle:
         return "Full tank"
 
     def windshield_fluid(self):
-        return "Fill the windshield fluid."
+        return "Windshield fluid empty."
