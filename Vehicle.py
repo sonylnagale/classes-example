@@ -14,3 +14,20 @@ class Vehicle:
     
     def fuel_up(self):
         return "Full tank"
+    
+class Plane(Vehicle):
+    def __init__(self, brand, model, year, engine_type):
+        super().__init__(brand, model, year)
+        self._engine_type = engine_type
+
+    def display_info(self):
+        base_info = super().display_info()  
+        return f"{base_info} - {self._engine_type} engine"
+
+    def honk(self):
+        return "Whoooosh!"
+
+#Testing the code
+my_plane = Plane("Boeing", "747", 2019, "Jet")
+print(my_plane.display_info())  
+print(my_plane.honk())          
