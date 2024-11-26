@@ -11,3 +11,14 @@ class Vehicle:
     def honk(self):
         """A general honk sound for all vehicles."""
         return "Beep beep!"
+
+    def fuel_up(self):
+        return "full tank"
+    
+    def check_transmission_fluid(self):
+        return "transmission fluid topped off"
+
+
+
+
+
