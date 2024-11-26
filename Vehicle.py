@@ -35,3 +35,9 @@ yacht = Boat(brand="Sunseeker", model="Predator", year=2023, weight="12000kg", b
 # Call methods and print output
 print(yacht.display_info()) 
 print(yacht.honk())
+    
+    def fuel_up(self):
+        return "Full tank"
+    
+    def brake(self):
+        print("Braking the car.")
