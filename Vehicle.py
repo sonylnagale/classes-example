@@ -16,4 +16,18 @@ class Vehicle:
         return "Full tank"
     
     def brake(self):
-        print("Braking the car.")
+        print("Braking the vehicle.")
+
+
+class Bus(Vehicle):
+    def __init__(self, brand, model, year, seating_capacity):
+        super().__init__(brand, model, year)
+        self.seating_capacity = seating_capacity
+
+    def display_info(self):
+        """Override display_info to include seating capacity."""
+        return f"{super().display_info()} with seating capacity of {self.seating_capacity} passengers"
+
+    def capacity_info(self):
+        """Specific method for buses."""
+        return f"The bus can seat up to {self.seating_capacity} passengers."
