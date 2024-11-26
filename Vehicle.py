@@ -14,3 +14,6 @@ class Vehicle:
     
     def fuel_up(self):
         return "Full tank"
+    
+    def crash(self):
+        return "SCREEEECH"
