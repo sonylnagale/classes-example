@@ -31,3 +31,7 @@ class Plane(Vehicle):
 my_plane = Plane("Boeing", "747", 2019, "Jet")
 print(my_plane.display_info())  
 print(my_plane.honk())          
+
+    def brake(self):
+        print("Braking the car.")
+
