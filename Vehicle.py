@@ -17,3 +17,6 @@ class Vehicle:
     
     def brake(self):
         print("Braking the car.")
+             
+    def park(self):
+        return "The car is at 0 mph now, and parked"
