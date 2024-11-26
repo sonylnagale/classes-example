@@ -11,4 +11,4 @@ class Truck(Vehicle):
 
     def honk(self):
         """Specific implementation for a truck."""
-        return "HOOOOONK!"
+        return "h"
