@@ -12,3 +12,7 @@ class Car(Vehicle):
     def honk(self):
         """Specific implementation for a car."""
         return "Honk honk!"
+        
+    def start_engine(self):
+        """Simulate starting the engine of the car."""
+        return f"{self._brand} {self._model}'s engine has started!"
