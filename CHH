@@ -1,3 +1,0 @@
-git add .
-git commit -m "Created a child class for <Car.py>"
-git push origin main
