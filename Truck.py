@@ -12,3 +12,6 @@ class Truck(Vehicle):
     def honk(self):
         """Specific implementation for a truck."""
         return "HOOOOONK!"
+my_truck = Truck(brand = 'Peterbilt', model = 'Model 379', year = '2007', max_load= '54,000lbs')
+print(my_truck.display_info())
+print(my_truck.honk())
