@@ -13,3 +13,7 @@ class Motorcycle(Vehicle):
     def honk(self):
         """Specific implementation for a motorcycle."""
         return "Meep meep!"
+my_motorcycle = Motorcycle( brand = 'Yamaha', model = 'R7', year = '2023', has_sidecar = 'no'  )
+print(my_motorcycle.display_info())
+print(my_motorcycle.honk())
+print(my_motorcycle.fuel_up())

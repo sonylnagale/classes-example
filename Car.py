@@ -12,3 +12,6 @@ class Car(Vehicle):
     def honk(self):
         """Specific implementation for a car."""
         return "Honk honk!"
+my_car= Car(brand = 'Toyota', model = 'Supra', year = '2024', doors='2')
+print(my_car.display_info())
+print(my_car.honk())
