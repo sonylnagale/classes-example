@@ -12,3 +12,7 @@ class Car(Vehicle):
     def honk(self):
         """Specific implementation for a car."""
         return "Honk honk!"
+
+    def refuel(self, amount):
+        """Refueling the car."""
+        return f"Refueling {amount} liters of {self.fuel_type}."
