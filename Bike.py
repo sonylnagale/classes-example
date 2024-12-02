@@ -1,6 +1,6 @@
 from Vehicle import Vehicle
 
-class Car(Vehicle):
+class Bike(Vehicle):
     def __init__(self, brand, model, year, gears):
         super().__init__(brand, model, year)
 
