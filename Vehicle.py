@@ -10,4 +10,14 @@ class Vehicle:
     
     def honk(self):
         """A general honk sound for all vehicles."""
+<<<<<<< HEAD
         return "BBBBBBBBBB!"
+=======
+        return "Beep beep!"
+    
+    def fuel_up(self):
+        return "Full tank"
+    
+    def brake(self):
+        print("Braking the car.")
+>>>>>>> 209bcc9bf07c12e9e9e8c963ab8ba1b45826ab2a
