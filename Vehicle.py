@@ -17,6 +17,9 @@ class Vehicle:
     
     def fuel_up(self):
         return "Full tank"
+
+    def windshield_fluid(self):
+        return "Windshield fluid empty."
     
     def brake(self):
         print("Braking the car.")
