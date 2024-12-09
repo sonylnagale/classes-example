@@ -12,3 +12,5 @@ class Car(Vehicle):
     def honk(self):
         """Specific implementation for a car."""
         return "Honk honk!"
+    def open_trunk(self):
+        return "Trunk is now open."
