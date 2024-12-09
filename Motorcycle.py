@@ -13,3 +13,6 @@ class Motorcycle(Vehicle):
     def honk(self):
         """Specific implementation for a motorcycle."""
         return "Meep meep!"
+    
+    def fuel_up(self):
+        return "Fill until full"
