@@ -20,3 +20,9 @@ class Vehicle:
     
     def brake(self):
         print("Braking the car.")
+     
+    def fuel(self):
+        return "get more fuel when you can"
+
+    def headlight(self):
+        return "turn headlight on"
