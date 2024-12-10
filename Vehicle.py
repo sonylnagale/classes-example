@@ -20,3 +20,6 @@ class Vehicle:
     
     def brake(self):
         print("Braking the car.")
+
+    def check_maintenance(self):
+        return f"{self._brand} {self._model} needs a checkup soon!"
