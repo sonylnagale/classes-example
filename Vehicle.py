@@ -20,3 +20,17 @@ class Vehicle:
     
     def brake(self):
         print("Braking the car.")
+
+
+class Bike(Vehicle):
+    def __init__(self, brand, model, year, has_gears):
+        super().__init__(brand, model, year)
+        self.has_gears = has_gears
+
+    def display_info(self):
+        """Overide display_info to include specific bike info."""
+        return f"{super().display.info()} - {'with gears' if self.has_gears else 'without the gears'}"
+
+    def ring_bell(self):
+        """Specific method for bikes."""
+        return "Ring ring!""
